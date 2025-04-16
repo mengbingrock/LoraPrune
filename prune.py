@@ -511,7 +511,7 @@ def evaluate_model_on_dataset(model, tokenizer, masks, dataset_name):
 def train(
     # model/data params
     base_model: str = "",  # the required argument
-    data_path: str = "",  # the required argument
+    data_path: str = "medical_dataset",  # the required argument
     output_dir: str = "output_dir",
     # training hyperparams
     nsamples: int = 25000,
